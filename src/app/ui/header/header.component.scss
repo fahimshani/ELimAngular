@@ -1,0 +1,14 @@
+
+.header__wrapper .logo {
+    color: #b9b4d2;
+    opacity: 0;
+    animation: opacityFade 0.4s 2s  ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes opacityFade {
+    0% {opacity: 0;  left:0}
+    100% { opacity: 1;    left:30px;}
+}
+header nav {
+    animation: opacityFade 0.4s 2s  ease-in;
+}
